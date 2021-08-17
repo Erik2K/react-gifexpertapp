@@ -1,2 +1,33 @@
-*{font-family:Helvetica,Arial,sans-serif}body{padding:60px}body,input{color:#fff;background-color:#21232a}input{font-size:1.2rem;height:2rem;width:100%;border:1px solid #fff;border-radius:5px}input:focus{outline:none}.card-grid{display:flex;flex-direction:row;flex-wrap:wrap;border:5px solid #fff;justify-content:stretch}.card img{max-height:170px;margin:1px;display:block}
+* {
+	font-family: Helvetica, Arial, sans-serif;
+}
+body {
+	padding: 60px;
+}
+body,
+input {
+	color: #fff;
+	background-color: #21232a;
+}
+input {
+	font-size: 1.2rem;
+	height: 2rem;
+	width: 100%;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+input:focus {
+	outline: none;
+}
+.card-grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: stretch;
+}
+.card img {
+	max-height: 170px;
+	margin: 1px;
+	display: block;
+}
 /*# sourceMappingURL=main.77166c40.chunk.css.map */
