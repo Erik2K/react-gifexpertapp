@@ -1,0 +1,37 @@
+* {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+	color: white;
+	padding: 60px;
+	background-color: #21232a;
+}
+
+input {
+	color: white;
+	font-size: 1.2rem;
+	height: 2rem;
+	width: 100%;
+	background-color: #21232a;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+input:focus {
+	outline: none;
+}
+
+.card-grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border: 5px solid white;
+	justify-content: stretch;
+}
+
+.card img {
+	max-height: 170px;
+	margin: 1px;
+	display: block;
+}
